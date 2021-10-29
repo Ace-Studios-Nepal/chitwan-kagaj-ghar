@@ -28,7 +28,24 @@ const CarouselImage = () => {
           );
         })}
       </Carousel>
-      <h1 className='text-center'>hello</h1>
+      {/* <Carousel>
+        {data.map((ss) => {
+          return (
+            <Carousel.Item key={ss.id}>
+              <img
+                className='d-block '
+                src={ss.img}
+                alt='First slide'
+                style={{ maxHeight: '500px' }}
+              />
+              <Carousel.Caption>
+                <h5>{ss.name}</h5>
+                <p>{ss?.desc}</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+          );
+        })}
+      </Carousel> */}
     </div>
   );
 };

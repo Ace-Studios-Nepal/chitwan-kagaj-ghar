@@ -3,9 +3,9 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className='text-gray-600 body-font sticky bottom-0 bg-white z-10'>
+    <footer className='text-gray-400 bg-gray body-font  z-10'>
       <div className='container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col'>
-        <p className='text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>
+        <p className='text-sm text-gray-400 bg-gray sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>
           © 2021 —
           <a
             href='https://www.facebook.com/acestudiosnp'
