@@ -43,7 +43,7 @@ const Services = () => {
           <div className='flex flex-wrap -mx-4 -mb-10 text-center'>
             {service.map((ss) => {
               return (
-                <div className='sm:w-1/2 mb-10 px-4'>
+                <div className='sm:w-1/2 mb-10 px-4' key={ss.id}>
                   <div className='rounded-lg h-64 overflow-hidden'>
                     <img
                       alt='chitwan kagaj ghar'
