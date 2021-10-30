@@ -1,5 +1,4 @@
 import React, { useState, useRef } from 'react';
-import { Carousel } from 'react-responsive-carousel';
 import { Zoom } from 'react-slideshow-image';
 import style from './carousel.module.css';
 import 'react-slideshow-image/dist/styles.css';
@@ -7,6 +6,7 @@ import 'react-slideshow-image/dist/styles.css';
 import data from '../carousel';
 
 const CarouselImage = () => {
+  console.log(data);
   const slideRef = useRef();
   const [cr, setCr] = useState(data);
   const zoomInProperties = {
