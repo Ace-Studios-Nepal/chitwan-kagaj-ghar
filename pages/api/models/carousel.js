@@ -1,51 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import { Zoom } from 'react-slideshow-image';
 import Image from 'next/image';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import 'react-slideshow-image/dist/styles.css';
+
 import data from '../carousel';
 const CarouselImage = () => {
+  const [cr, setCr] = useState(data);
+  const zoomInProperties = {
+    indicators: true,
+    scale: 1.4,
+    canSwipe: true,
+  };
   console.log(data);
   return (
     <div className='content-center self-center pt-5'>
-      <Carousel
-        showArrows={true}
-        autoPlay={true}
-        infiniteLoop={true}
-        emulateTouch={true}
-        interval={2000}
-        stopOnHover={true}
-      >
-        {data.map((ss) => {
-          return (
-            <div
-              key={ss.id}
-              style={{
-                maxHeight: '600px',
-              }}
-            >
-              <Image src={ss.img} height={1000} width={1500}></Image>
-            </div>
-          );
-        })}
-      </Carousel>
-      {/* <Carousel>
-        {data.map((ss) => {
-          return (
-            <Carousel.Item key={ss.id}>
-              <img
-                className='d-block '
-                src={ss.img}
-                alt='First slide'
-                style={{ maxHeight: '500px' }}
-              />
-              <Carousel.Caption>
-                <h5>{ss.name}</h5>
-                <p>{ss?.desc}</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          );
-        })}
-      </Carousel> */}
+      <Zoom {...zoomInProperties}>
+        {cr.map((each, index) => (
+          <div key={index} style={{ width: '100%', height: '500px' }}>
+            <img style={{ objectFit: 'cover', width: '100%' }} src={each.img} />
+          </div>
+        ))}
+      </Zoom>
     </div>
   );
 };
