@@ -2,16 +2,25 @@
   {
     "id": 1,
     "img": "/3.jpg",
-    "name": "lorem chitwan kagaj ghar random text for somtgingoa oaiao "
+    "name": "lorem chitwan kagaj ghar random text for somtgingoa oaiao ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "tel:9855063714",
+    "linkName": "Call us"
   },
   {
     "id": 2,
     "img": "/3.jpg",
-    "name": "lorem chitwan kagaj ghar random text for somtgingoa oaiao "
+    "name": "lorem chitwan kagaj ghar random text for somtgingoa oaiao ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "mailto:chitwankagazghar@gmail.com",
+    "linkName": "Mail us"
   },
   {
     "id": 3,
     "img": "/3.jpg",
-    "name": "lorem chitwan kagaj ghar random text for somtgingoa oaiao "
+    "name": "lorem chitwan kagaj ghar random text for somtgingoa oaiao ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "tel:9855063714",
+    "linkName": "Call us"
   }
 ]

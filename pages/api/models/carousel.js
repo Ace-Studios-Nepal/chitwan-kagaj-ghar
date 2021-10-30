@@ -11,14 +11,20 @@ const CarouselImage = () => {
     indicators: true,
     scale: 1.4,
     canSwipe: true,
+    duration: 1500,
+    transitionDuration: 500,
+    pauseOnHover: false,
   };
   console.log(data);
   return (
     <div className='content-center self-center pt-5'>
       <Zoom {...zoomInProperties}>
         {cr.map((each, index) => (
-          <div key={index} style={{ width: '100%', height: '500px' }}>
-            <img style={{ objectFit: 'cover', width: '100%' }} src={each.img} />
+          <div key={index} style={{ width: '100%' }}>
+            <img
+              style={{ objectFit: 'cover', width: '100%', maxHeight: '500px' }}
+              src={`/carousel/${each.id}.jpg`}
+            />
           </div>
         ))}
       </Zoom>

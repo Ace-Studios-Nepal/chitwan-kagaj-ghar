@@ -19,10 +19,7 @@ const Hero = () => {
               card with us
             </h1>
             <p className='mb-8 leading-relaxed'>
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              We are the wholeseller of weeding cards & printing materials.
             </p>
             <div className='flex justify-center'>
               <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>

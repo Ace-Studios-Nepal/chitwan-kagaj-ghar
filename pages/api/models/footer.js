@@ -8,7 +8,7 @@ const Footer = () => {
         <p className='text-sm text-gray-400 bg-gray sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4'>
           © 2021 —
           <a
-            href='https://www.facebook.com/acestudiosnp'
+            href='https://www.acestudios.ml/'
             className='text-gray-600 ml-1'
             rel='noopener noreferrer'
             target='_blank'
