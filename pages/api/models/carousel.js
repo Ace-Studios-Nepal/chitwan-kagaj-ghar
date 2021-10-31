@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Zoom } from 'react-slideshow-image';
-import style from './carousel.module.css';
+import './carousel.module.css';
 import 'react-slideshow-image/dist/styles.css';
 
 import data from '../carousel';
@@ -12,11 +12,12 @@ const CarouselImage = () => {
   const zoomInProperties = {
     indicators: true,
     indicators: (i) => (
-      <div className={style.indicator}>
+      <div className={`indicator`}>
         <img
           src={`/carousel/${i + 1}.jpg`}
           alt='chitwan kagaz'
-          style={{ height: '40px' }}
+          style={{ height: '30px' }}
+          className='image'
         />
       </div>
     ),

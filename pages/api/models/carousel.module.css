@@ -19,5 +19,10 @@
   background: #666;
 }
 .image {
-  width: 5%;
+  height: 30px;
+}
+@media screen and (max-width: 600px) {
+  .image {
+    height: 5px;
+  }
 }
