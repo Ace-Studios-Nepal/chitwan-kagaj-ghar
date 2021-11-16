@@ -14,7 +14,7 @@ const Services = () => {
           <div className='flex flex-wrap -m-4'>
             {service.map((ss) => {
               return (
-                <Link href={`/services/${ss.id}`}>
+                <Link href={`/services/${ss.id}`} key={ss.id}>
                   <div className='lg:w-1/4 md:w-1/2 p-4 w-full'>
                     <a className='block relative h-48 rounded overflow-hidden'>
                       <img
