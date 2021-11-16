@@ -11,16 +11,7 @@ const CarouselImage = () => {
   const [cr, setCr] = useState(data);
   const zoomInProperties = {
     indicators: true,
-    indicators: (i) => (
-      <div className={`indicator`}>
-        <img
-          src={`/carousel/${i + 1}.jpg`}
-          alt='chitwan kagaz'
-          style={{ height: '30px' }}
-          className='image'
-        />
-      </div>
-    ),
+
     scale: 1.4,
     canSwipe: true,
     duration: 2000,
