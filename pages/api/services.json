@@ -2,15 +2,15 @@
   {
     "id": 1,
     "img": "/1.jpg",
-    "name": "Design your custom wedding card with us",
-    "desc": "We are the wholeseller of wedding cards & printing materials.",
+    "name": "Wedding cards",
+    "desc": "We are the wholeseller of wedding cards",
     "link": "tel:9855063714",
     "linkName": "Call us"
   },
   {
     "id": 2,
     "img": "/2.jpg",
-    "name": "Design custom invitation or welcome card with us",
+    "name": "Offset printing material ",
     "desc": "We design invitation, welcome card for your occasion as per your need.",
     "link": "mailto:chitwankagazghar@gmail.com",
     "linkName": "Mail us"
@@ -18,7 +18,63 @@
   {
     "id": 3,
     "img": "/3.jpg",
-    "name": "lorem chitwan kagaj ghar random text for somtgingoa oaiao ",
+    "name": "Screen printing materials ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "linkName": "Message us"
+  },
+  {
+    "id": 2,
+    "img": "/3.jpg",
+    "name": "Bending materials ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "linkName": "Message us"
+  },
+  {
+    "id": 3,
+    "img": "/3.jpg",
+    "name": "Industrial printing materials ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "linkName": "Message us"
+  },
+  {
+    "id": 3,
+    "img": "/3.jpg",
+    "name": "File udhyog material  ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "linkName": "Message us"
+  },
+  {
+    "id": 3,
+    "img": "/3.jpg",
+    "name": "Copy udhyog material",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "linkName": "Message us"
+  },
+  {
+    "id": 3,
+    "img": "/3.jpg",
+    "name": "painting material (related to canvas painting)",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "linkName": "Message us"
+  },
+  {
+    "id": 3,
+    "img": "/3.jpg",
+    "name": "All kind of Stamp material ",
+    "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
+    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "linkName": "Message us"
+  },
+  {
+    "id": 3,
+    "img": "/3.jpg",
+    "name": "Mini machinery for printing ",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
     "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
     "linkName": "Message us"

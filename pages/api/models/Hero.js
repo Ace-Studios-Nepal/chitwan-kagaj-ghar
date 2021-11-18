@@ -24,13 +24,18 @@ const Hero = () => {
               We are the wholeseller of wedding cards & printing materials.
             </p>
             <div className='flex justify-center'>
-              {service.map((ss) => (
-                <a href={ss.link} key={ss.id} className='mx-1'>
-                  <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
-                    {ss.linkName}
-                  </button>
-                </a>
-              ))}
+              <a href={service[0].link} className='mx-1'>
+                <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
+                  {service[0].linkName}
+                </button>
+              </a>
+            </div>
+            <div className='flex justify-center'>
+              <a href={service[1].link} className='mx-1'>
+                <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
+                  {service[1].linkName}
+                </button>
+              </a>
             </div>
           </div>
         </div>

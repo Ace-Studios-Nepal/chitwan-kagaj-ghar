@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { Zoom } from 'react-slideshow-image';
-import './carousel.module.css';
+import style from './carousel.module.css';
 import 'react-slideshow-image/dist/styles.css';
 
 import data from '../carousel';
@@ -28,16 +28,16 @@ const CarouselImage = () => {
         {cr.map((each, index) => (
           <>
             <div key={index} style={{ width: '100%' }}>
-              <img
+              {/* <img
                 style={{
                   objectFit: 'cover',
                   width: '100%',
                   maxHeight: '500px',
                 }}
                 src={`/carousel/${each.id}.jpg`}
-              />
-              <div className='absolute text-lg -mt-16 text-white px-4'>
-                <p>{each.name}</p>
+              /> */}
+              <div className=''>
+                <p className={style.text}>{each.name}</p>
               </div>
             </div>
           </>
