@@ -12,9 +12,9 @@ const ServicesModel = () => {
       <section className='text-gray-600 body-font'>
         <div className='container px-5 py-24 mx-auto'>
           <div className='flex flex-wrap -m-4'>
-            {service.map((ss) => {
+            {service.map((ss, index) => {
               return (
-                <Link href={`/services/${ss.id}`} key={ss.id}>
+                <Link href={`/services/${index}`} key={index}>
                   <div className='lg:w-1/4 md:w-1/2 p-4 w-full'>
                     <a className='block relative h-48 rounded overflow-hidden'>
                       <img

@@ -1,7 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
+  const router = useRouter();
   return (
     <>
       <header className='text-gray-400 bg-gray-900 body-font sticky top-0'>
@@ -11,6 +13,7 @@ const Navbar = () => {
             style={{
               cursor: 'pointer',
             }}
+            onClick={() => router.push('/')}
           >
             <span className='ml-3 text-xl'>Chitwan KagajGhar</span>
           </a>
