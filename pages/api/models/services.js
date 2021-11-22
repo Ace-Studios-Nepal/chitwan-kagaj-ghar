@@ -15,7 +15,10 @@ const ServicesModel = () => {
             {service.map((ss, index) => {
               return (
                 <Link href={`/services/${index}`} key={index}>
-                  <div className='lg:w-1/4 md:w-1/2 p-4 w-full'>
+                  <div
+                    className='lg:w-1/4 md:w-1/2 p-4 w-full'
+                    style={{ cursor: 'pointer' }}
+                  >
                     <a className='block relative h-48 rounded overflow-hidden'>
                       <img
                         alt='chitwan kagaj ghar'
