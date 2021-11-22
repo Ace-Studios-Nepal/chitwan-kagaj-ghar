@@ -28,17 +28,17 @@ const CarouselImage = () => {
         {cr.map((each, index) => (
           <>
             <div key={index} style={{ width: '100%' }}>
-              {/* <img
+              <img
                 style={{
                   objectFit: 'cover',
                   width: '100%',
                   maxHeight: '500px',
                 }}
                 src={`/carousel/${each.id}.jpg`}
-              /> */}
-              <div className=''>
+              />
+              {/* <div className=''>
                 <p className={style.text}>{each.name}</p>
-              </div>
+              </div> */}
             </div>
           </>
         ))}
