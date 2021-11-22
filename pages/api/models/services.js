@@ -20,7 +20,7 @@ const ServicesModel = () => {
                       <img
                         alt='chitwan kagaj ghar'
                         className='obect-cover object-center h-full w-full'
-                        src={`/services/${ss.id}.jpg`}
+                        src={`/services/${index}.jpg`}
                       />
                     </a>
                     <div className='mt-4'>
