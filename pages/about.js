@@ -27,7 +27,7 @@ const About = () => {
       <section className='text-gray-600 body-font'>
         {about.map((item, index) => {
           return (
-            <div className='container px-5 pt-8 mx-auto'>
+            <div className='container px-5 pt-8 mx-auto' key={index}>
               <div className='xl:w-1/2 lg:w-3/4 w-full mx-auto text-center'>
                 <i className='bx bxs-quote-right'></i>
                 <p className='leading-relaxed text-lg'>{item.message}</p>
