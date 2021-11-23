@@ -34,7 +34,7 @@ const About = () => {
               <div className='xl:w-1/2 lg:w-2/4 w-full mx-auto text-center '>
                 <i className='bx bxs-quote-right'></i>
                 <p className='leading-relaxed text-lg'>{item.message}</p>
-                <span className='inline-block w-32 h-32 bg-purple-500 mt-2'>
+                <span className='inline-block w-32 h-32 mt-2'>
                   <img
                     className='rounded-full object-cover '
                     src={item.image}

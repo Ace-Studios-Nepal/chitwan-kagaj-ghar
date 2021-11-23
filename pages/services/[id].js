@@ -42,6 +42,12 @@ const SingleService = () => {
                 >
                   <i className='bx bxl-facebook '></i>
                 </a>
+                <a
+                  href={service[3]?.link}
+                  className='bg-purple-500 hover:bg-purple-600 rounded focus:outline-none text-white py-2 px-5'
+                >
+                  <i className='bx bxl-whatsapp '></i>
+                </a>
               </div>
             </div>
           </div>
