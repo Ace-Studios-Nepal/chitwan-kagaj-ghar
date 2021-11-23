@@ -50,6 +50,28 @@ const About = () => {
           </section>
         );
       })}
+      <section className='text-gray-600 body-font'>
+        <div className='container mx-auto flex flex-col px-5 py-8 justify-center items-center'>
+          <div className='w-full md:w-2/3 flex flex-col mb-2 items-center text-center'>
+            <section className='text-gray-600 body-font'>
+              <div className='container px-5 py-4 mx-auto flex sm:flex-nowrap flex-wrap'>
+                <div className=''>
+                  <h4>We are here : {about[0].location} </h4>
+                  <iframe
+                    src='https://www.google.com/maps/embed?pb=!1m18!1m8!1m3!1d1309.59022853723!2d84.4217429432392!3d27.69390100254705!3m2!1i1024!2i768!4f13.1!4m7!3e6!4m4!1s0x0%3A0x33d1f0389a2f0e6d!3m2!1d27.694038799999998!2d84.42274429999999!4m0!5e0!3m2!1sen!2sus!4v1637662566321!5m2!1sen!2sus'
+                    width='600'
+                    height='450'
+                    style={{ border: '0px' }}
+                    allowfullscreen=''
+                    loading='lazy'
+                    className='relative self-center'
+                  ></iframe>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
