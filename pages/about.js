@@ -62,7 +62,6 @@ const About = () => {
                     width='600'
                     height='450'
                     style={{ border: '0px' }}
-                    allowfullscreen=''
                     loading='lazy'
                     className='relative self-center'
                   ></iframe>
