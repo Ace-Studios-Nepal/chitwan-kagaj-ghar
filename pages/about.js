@@ -25,10 +25,13 @@ const About = () => {
         </div>
       </section>
       <section className='text-gray-600 body-font'>
-        {about.map((item, index) => {
-          return (
-            <div className='container px-5 pt-8 mx-auto' key={index}>
-              <div className='xl:w-1/2 lg:w-3/4 w-full mx-auto text-center'>
+        <div className='container px-5 pt-8 mx-auto'>
+          {about.map((item, index) => {
+            return (
+              <div
+                className='xl:w-1/2 lg:w-2/4 w-1/2 mx-auto text-center lg:float-left md:float-none sm:float-none'
+                key={index}
+              >
                 <i className='bx bxs-quote-right'></i>
                 <p className='leading-relaxed text-lg'>{item.message}</p>
                 <span className='inline-block h-1 w-10 rounded bg-purple-500 mt-8 mb-6'>
@@ -42,12 +45,12 @@ const About = () => {
                   {item.postBy}
                 </h2>
                 <p className='text-gray-500'>{item.org} </p>
+                <br />
+                <hr />
               </div>
-              <br />
-              <hr />
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </section>
     </>
   );

@@ -31,9 +31,11 @@ const ServicesModel = () => {
                         SERVICES
                       </h3>
                       <h2 className='text-gray-900 title-font text-lg font-medium'>
-                        {ss.name}
+                        {ss.name.length > 30
+                          ? ss.name.substring(0, 30) + '...'
+                          : ss.name}
                       </h2>
-                      <p className='mt-1'>{ss.desc}</p>
+                      <p className='mt-1'>{ss.desc.substr(0, 130)}</p>
                     </div>
                   </div>
                 </Link>
