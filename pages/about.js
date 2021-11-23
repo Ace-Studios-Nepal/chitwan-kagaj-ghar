@@ -34,7 +34,7 @@ const About = () => {
               >
                 <i className='bx bxs-quote-right'></i>
                 <p className='leading-relaxed text-lg'>{item.message}</p>
-                <span className='inline-block h-1 w-10 rounded bg-purple-500 mt-8 mb-6'>
+                <span className='inline-block h-1 w-10 rounded bg-purple-500 mb-8'>
                   <img
                     className='rounded object-cover'
                     src={item.image}
