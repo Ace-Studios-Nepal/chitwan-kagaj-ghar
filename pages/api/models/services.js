@@ -34,7 +34,18 @@ const ServicesModel = () => {
                           ? ss.name.substring(0, 30) + '...'
                           : ss.name}
                       </h2>
-                      <p className='mt-1'>{ss.desc.substr(0, 130)}</p>
+                      <p className='mt-1'>
+                        {ss.desc.length > 100
+                          ? ss.desc.substr(0, 100) + ' ...'
+                          : ss.desc}
+                        {ss.desc.length > 100 ? (
+                          <span className='opacity-50 hover:opacity-100'>
+                            see more
+                          </span>
+                        ) : (
+                          ''
+                        )}
+                      </p>
                     </div>
                   </div>
                 </Link>
