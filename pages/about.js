@@ -26,12 +26,12 @@ const About = () => {
       </section>
       {about.map((item, index) => {
         return (
-          <section className='text-gray-600 body-font content-center'>
+          <section
+            className='text-gray-600 body-font content-center'
+            key={index}
+          >
             <div className='container content-center px-5  mx-auto'>
-              <div
-                className='xl:w-1/2 lg:w-2/4 w-full mx-auto text-center '
-                key={index}
-              >
+              <div className='xl:w-1/2 lg:w-2/4 w-full mx-auto text-center '>
                 <i className='bx bxs-quote-right'></i>
                 <p className='leading-relaxed text-lg'>{item.message}</p>
                 <span className='inline-block w-32 h-32 bg-purple-500 mt-2'>
