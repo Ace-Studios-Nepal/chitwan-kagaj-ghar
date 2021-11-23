@@ -4,14 +4,14 @@ import { about } from './api/carousel';
 const About = () => {
   return (
     <>
-      <h1 className='text-center title-font  sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
+      <h1 className='text-center title-font  sm:text-4xl text-3xl my-2 font-medium text-gray-900'>
         About us
       </h1>
 
       <section className='text-gray-600 body-font'>
         <div className='container mx-auto flex flex-col px-5 py-24 justify-center items-center'>
-          <div className='w-full md:w-2/3 flex flex-col mb-16 items-center text-center'>
-            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900'>
+          <div className='w-full md:w-2/3 flex flex-col mb-5 items-center text-center'>
+            <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 sm:mb-0 '>
               CKG means Chitwan Kagaz Ghar. The wholeseller of weeding cards &
               printing materials.
             </h1>
@@ -24,19 +24,19 @@ const About = () => {
           </div>
         </div>
       </section>
-      <section className='text-gray-600 body-font'>
-        <div className='container px-5 pt-8 mx-auto'>
-          {about.map((item, index) => {
-            return (
+      {about.map((item, index) => {
+        return (
+          <section className='text-gray-600 body-font content-center'>
+            <div className='container content-center px-5  mx-auto'>
               <div
-                className='xl:w-1/2 lg:w-2/4 w-full mx-auto text-center lg:float-left md:float-none sm:float-none'
+                className='xl:w-1/2 lg:w-2/4 w-full mx-auto text-center '
                 key={index}
               >
                 <i className='bx bxs-quote-right'></i>
                 <p className='leading-relaxed text-lg'>{item.message}</p>
-                <span className='inline-block h-1 w-10 rounded bg-purple-500 mb-8'>
+                <span className='inline-block w-32 h-32 bg-purple-500 mt-2'>
                   <img
-                    className='rounded object-cover'
+                    className='rounded-full object-cover '
                     src={item.image}
                     alt={item.postBy}
                   />
@@ -45,13 +45,11 @@ const About = () => {
                   {item.postBy}
                 </h2>
                 <p className='text-gray-500'>{item.org} </p>
-                <br />
-                <hr />
               </div>
-            );
-          })}
-        </div>
-      </section>
+            </div>
+          </section>
+        );
+      })}
     </>
   );
 };
