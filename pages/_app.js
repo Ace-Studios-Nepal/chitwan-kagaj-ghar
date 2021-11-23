@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps, router }) {
           content='wedding card, offset printing material, screen printing material, bending material, file and copy udhyog material, painting material, stamp material, mini machinery for printing'
         />
         <meta name='robots' content='index, follow' />
-        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+        <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
         <meta name='language' content='English' />
         <link rel='icon' href='/favicon.ico' />
         <link
