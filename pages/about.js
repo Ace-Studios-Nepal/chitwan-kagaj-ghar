@@ -29,7 +29,7 @@ const About = () => {
           {about.map((item, index) => {
             return (
               <div
-                className='xl:w-1/2 lg:w-2/4 w-1/2 mx-auto text-center lg:float-left md:float-none sm:float-none'
+                className='xl:w-1/2 lg:w-2/4 w-full mx-auto text-center lg:float-left md:float-none sm:float-none'
                 key={index}
               >
                 <i className='bx bxs-quote-right'></i>
