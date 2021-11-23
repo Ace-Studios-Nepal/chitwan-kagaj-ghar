@@ -15,7 +15,7 @@ const Navbar = () => {
             }}
             onClick={() => router.push('/')}
           >
-            <span className='ml-3 text-xl'>Chitwan KagajGhar</span>
+            <span className='ml-3 text-xl'>Chitwan Kagaj Ghar</span>
           </a>
           <nav className='md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center'>
             <Link href={'/'}>
