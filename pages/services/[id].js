@@ -36,6 +36,11 @@ const SingleService = () => {
                     <i className='bx  bx-phone'></i>
                   </button>
                 </a>
+                <a href={service[1]?.link} className='mx-1'>
+                  <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
+                    <i className='bx  bx-mail-send'></i>
+                  </button>
+                </a>
                 <a href={service[2]?.link} className='mx-1'>
                   <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
                     <i className='bx  bxl-facebook'></i>
