@@ -59,11 +59,9 @@ const About = () => {
                   <h4>We are here : {about[0].location} </h4>
                   <iframe
                     src='https://www.google.com/maps/embed?pb=!1m18!1m8!1m3!1d1309.59022853723!2d84.4217429432392!3d27.69390100254705!3m2!1i1024!2i768!4f13.1!4m7!3e6!4m4!1s0x0%3A0x33d1f0389a2f0e6d!3m2!1d27.694038799999998!2d84.42274429999999!4m0!5e0!3m2!1sen!2sus!4v1637662566321!5m2!1sen!2sus'
-                    width='600'
-                    height='450'
                     style={{ border: '0px' }}
                     loading='lazy'
-                    className='relative self-center'
+                    className='relative self-center map'
                   ></iframe>
                 </div>
               </div>
