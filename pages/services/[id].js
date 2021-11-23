@@ -27,26 +27,24 @@ const SingleService = () => {
               <p className='leading-relaxed pt-5'>{service[id]?.desc}</p>
               <br />
               <div className='flex justify-around'>
-                <span className='title-font font-medium text-2xl text-gray-900'>
+                <span className='title-font font-medium text-lg text-gray-900'>
                   starting from Rs. {service[id]?.price}
                 </span>
-                <a
-                  href={service[0]?.link}
-                  className='bg-purple-500 hover:bg-purple-600 rounded focus:outline-none text-white py-2 px-5'
-                >
-                  <i className='bx bx-phone'></i>
+
+                <a href={service[0]?.link} className='mx-1'>
+                  <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
+                    <i className='bx  bx-phone'></i>
+                  </button>
                 </a>
-                <a
-                  href={service[2]?.link}
-                  className='bg-purple-500 hover:bg-purple-600 rounded focus:outline-none text-white py-2 px-5'
-                >
-                  <i className='bx bxl-facebook '></i>
+                <a href={service[2]?.link} className='mx-1'>
+                  <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
+                    <i className='bx  bxl-facebook'></i>
+                  </button>
                 </a>
-                <a
-                  href={service[3]?.link}
-                  className='bg-purple-500 hover:bg-purple-600 rounded focus:outline-none text-white py-2 px-5'
-                >
-                  <i className='bx bxl-whatsapp '></i>
+                <a href={service[3]?.link} className='mx-1'>
+                  <button className='inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg'>
+                    <i className='bx  bxl-whatsapp'></i>
+                  </button>
                 </a>
               </div>
             </div>

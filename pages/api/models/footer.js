@@ -21,7 +21,7 @@ const Footer = () => {
             href='https://www.facebook.com/CKG-Wedding-Cards-637391076307034/'
             className='text-gray-500'
           >
-            <FaFacebook className='w-5 h-5' />
+            <FaFacebook />
           </a>
           <a
             href='https://www.facebook.com/CKG-Wedding-Cards-637391076307034/'
