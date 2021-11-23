@@ -23,23 +23,24 @@ const CarouselImage = () => {
   };
   console.log(data);
   return (
-    <div className='content-center self-center pt-5 '>
+    <>
       <Zoom {...zoomInProperties} ref={slideRef}>
         {cr.map((each, index) => (
           <>
-            <div key={index} style={{ width: '100%' }}>
-              <img
-                style={{
-                  objectFit: 'cover',
-                  width: '100%',
-                  maxHeight: '500px',
-                }}
-                src={`/carousel/${each.id}.jpg`}
-              />
-              {/* <div className=''>
+            <section className='text-gray-600 body-font'>
+              <div className='container px-5 py-24 mx-auto'>
+                <div className='flex flex-wrap -m-4'>
+                  <img
+                    key={index}
+                    className='obect-cover object-center  rounded z-0  '
+                    src={`/carousel/${each.id}.jpg`}
+                  />
+                  {/* <div className=''>
                 <p className={style.text}>{each.name}</p>
               </div> */}
-            </div>
+                </div>
+              </div>
+            </section>
           </>
         ))}
       </Zoom>
@@ -54,7 +55,7 @@ const CarouselImage = () => {
           </div>
         ))}
       </div> */}
-    </div>
+    </>
   );
 };
 

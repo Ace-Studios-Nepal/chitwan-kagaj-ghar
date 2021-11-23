@@ -19,13 +19,12 @@ const ServicesModel = () => {
                     className='lg:w-1/4 md:w-1/2 p-4 w-full'
                     style={{ cursor: 'pointer' }}
                   >
-                    <a className='block relative h-48 rounded overflow-hidden'>
-                      <img
-                        alt='chitwan kagaj ghar'
-                        className='obect-cover object-center h-full w-full'
-                        src={`/services/${index}.jpg`}
-                      />
-                    </a>
+                    <img
+                      alt='chitwan kagaj ghar'
+                      className='obect-cover object-center overflow-hidden h-48 w-full rounded '
+                      src={`/services/${index}.jpg`}
+                    />
+
                     <div className='mt-4'>
                       <h3 className='text-gray-500 text-xs tracking-widest title-font mb-1'>
                         SERVICES
