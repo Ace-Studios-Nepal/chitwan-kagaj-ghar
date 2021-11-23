@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import '../styles/globals.css';
 import 'tailwindcss/tailwind.css';
+import { motion } from 'framer-motion';
 import Navbar from './api/models/navbar';
 import Footer from './api/models/footer';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router }) {
   return (
     <>
       <Head>
@@ -17,7 +18,17 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Navbar />
-      <Component {...pageProps} />
+      <motion.div
+        key={router.route}
+        initial='hidden'
+        animate='visible'
+        variants={{
+          hidden: { opacity: 0, y: -100 },
+          visible: { opacity: 1, y: 0 },
+        }}
+      >
+        <Component {...pageProps} />
+      </motion.div>
       <Footer />
     </>
   );
