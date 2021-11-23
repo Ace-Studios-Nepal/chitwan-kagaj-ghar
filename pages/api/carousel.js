@@ -1,5 +1,9 @@
 const data = [
   {
+    id: 0,
+    name: 'some text hrer',
+  },
+  {
     id: 1,
     name: 'some text hrer',
   },
@@ -13,6 +17,18 @@ const data = [
   },
   {
     id: 4,
+    name: 'some text hrer',
+  },
+  {
+    id: 5,
+    name: 'some text hrer',
+  },
+  {
+    id: 6,
+    name: 'some text hrer',
+  },
+  {
+    id: 7,
     name: 'some text hrer',
   },
 ];
