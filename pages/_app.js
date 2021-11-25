@@ -4,7 +4,7 @@ import 'tailwindcss/tailwind.css';
 import { motion } from 'framer-motion';
 import Navbar from './api/models/navbar';
 import Footer from './api/models/footer';
-import MyDocument from './_document';
+// import MyDocument from './_document';
 
 
 function MyApp({ Component, pageProps, router }) {
