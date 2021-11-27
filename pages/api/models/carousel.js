@@ -77,6 +77,8 @@ const Carousel = () => {
           thumbnail: `/carousel/${index}.jpg`,
         }))}
         autoPlay={true}
+        slideInterval={5000}
+        swipingTransitionDuration={1000}
       />
       ;
     </>
