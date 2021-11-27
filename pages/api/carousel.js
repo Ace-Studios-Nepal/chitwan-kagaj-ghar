@@ -1,35 +1,52 @@
 const data = [
   {
     id: 0,
+    image: 'https://i.ibb.co/nn1rsV6/image.jpg',
+    thumbnail: 'https://i.ibb.co/nn1rsV6/image.jpg',
+
     name: 'some text hrer',
   },
   {
     id: 1,
+    image: 'https://i.ibb.co/pQXMTLm/1.jpg',
     name: 'some text hrer',
+    thumbnail: 'https://ibb.co/Zxj4TQJ',
   },
   {
     id: 2,
     name: 'some text hrer',
+    image: 'https://ibb.co/fXWk068',
+    thumbnail: 'https://ibb.co/fXWk068',
   },
   {
     id: 3,
     name: 'some text hrer',
+    image: 'https://ibb.co/4MbTP7F',
+    thumbnail: 'https://ibb.co/4MbTP7F',
   },
   {
     id: 4,
     name: 'some text hrer',
+    image: 'https://ibb.co/jfBxqHy',
+    thumbnail: 'https://ibb.co/jfBxqHy',
   },
   {
     id: 5,
     name: 'some text hrer',
+    image: 'https://ibb.co/QMCbrk6',
+    thumbnail: 'https://ibb.co/QMCbrk6',
   },
   {
     id: 6,
     name: 'some text hrer',
+    image: 'https://ibb.co/cFSwHSk',
+    thumbnail: 'https://ibb.co/cFSwHSk',
   },
   {
     id: 7,
     name: 'some text hrer',
+    image: 'https://ibb.co/3RSx3bF',
+    thumbnail: 'https://ibb.co/3RSx3bF',
   },
 ];
 export const about = [

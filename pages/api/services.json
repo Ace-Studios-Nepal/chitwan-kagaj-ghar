@@ -22,7 +22,7 @@
     "img": "/3.jpg",
     "name": "Screen printing materials ",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
-    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "link": "https://www.fb.com/chitwankagaj/",
     "linkName": "Message us",
     "price": "300 "
   },
@@ -40,7 +40,7 @@
     "img": "/3.jpg",
     "name": "Industrial printing materials ",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
-    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "link": "https://www.fb.com/chitwankagaj/",
     "linkName": "Message us",
     "price": "300 "
   },
@@ -49,7 +49,7 @@
     "img": "/3.jpg",
     "name": "File udhyog material  ",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
-    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "link": "https://www.fb.com/chitwankagaj/",
     "linkName": "Message us",
     "price": "300 "
   },
@@ -58,7 +58,7 @@
     "img": "/3.jpg",
     "name": "Copy udhyog material",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
-    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "link": "https://www.fb.com/chitwankagaj/",
     "linkName": "Message us",
     "price": 400
   },
@@ -67,7 +67,7 @@
     "img": "/3.jpg",
     "name": "painting material (related to canvas painting)",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
-    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "link": "https://www.fb.com/chitwankagaj/",
     "linkName": "Message us",
     "price": "300 "
   },
@@ -76,7 +76,7 @@
     "img": "/3.jpg",
     "name": "All kind of Stamp material ",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
-    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "link": "https://www.fb.com/chitwankagaj/",
     "linkName": "Message us",
     "price": "300 "
   },
@@ -85,8 +85,15 @@
     "img": "/3.jpg",
     "name": "Mini machinery for printing ",
     "desc": "lorem chitwan kagaj ghar random text for somtgingoa oaiaolorem chitwan kagaj ghar random text for somtgingoa oaiao",
-    "link": "https://www.fb.com/CKG-Wedding-Cards-637391076307034/",
+    "link": "https://www.fb.com/chitwankagaj/",
     "linkName": "Message us",
     "price": "300 "
+  },
+  {
+    "id": 10,
+    "img": "/10.jpg",
+    "name": "wedding umbrella",
+    "desc": "we provide umbrella for special occasion like wedding and other. ",
+    "price": "429"
   }
 ]
