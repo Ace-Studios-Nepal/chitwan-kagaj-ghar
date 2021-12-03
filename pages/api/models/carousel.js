@@ -70,7 +70,7 @@ const Carousel = () => {
   ];
   console.log(images);
   return (
-    <>
+    <div style={{ zIndex: '0' }}>
       <ReactImageGallery
         items={data.map((ss, index) => ({
           original: `/carousel/${index}.jpg`,
@@ -79,9 +79,10 @@ const Carousel = () => {
         autoPlay={true}
         slideInterval={5000}
         swipingTransitionDuration={1000}
+        zIndex={0}
       />
       ;
-    </>
+    </div>
   );
 };
 

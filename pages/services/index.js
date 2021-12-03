@@ -6,9 +6,9 @@ import ServicesModel from '../api/models/services';
 
 const Services = () => {
   return (
-    <>
+    <div className='service'>
       <ServicesModel />
-    </>
+    </div>
   );
 };
 

@@ -6,7 +6,10 @@ const Navbar = () => {
   const router = useRouter();
   return (
     <>
-      <header className='text-gray-400 bg-gray-900 body-font sticky top-0'>
+      <header
+        className='text-gray-400 bg-gray-900 body-font sticky top-0'
+        style={{ zIndex: '1' }}
+      >
         <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
           <a
             className='flex title-font font-medium items-center text-white mb-4 md:mb-0'
