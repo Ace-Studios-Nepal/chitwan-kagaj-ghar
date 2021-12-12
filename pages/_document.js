@@ -3,7 +3,11 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>{/* */}</Head>
+        <Head>
+          <link rel='manifest' href='/manifest.json' />
+          <link rel='apple-touch-icon' href='/logo.svg'></link>
+          <meta name='theme_color' content='#fff' />
+        </Head>
         <body>
           <Main />
           <NextScript />

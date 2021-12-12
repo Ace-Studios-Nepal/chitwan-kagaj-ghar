@@ -1,0 +1,23 @@
+{
+  "name": "Chitwan Kagaj Ghar",
+  "ShortName": "CKG",
+  "icons": [
+    {
+      "src": "/logo.jpg",
+      "width": "50",
+      "height": "50",
+      "alt": "CKG"
+    },
+    {
+      "src": "/logo.jpg",
+      "width": "50",
+      "height": "50",
+      "alt": "CKG"
+    }
+  ],
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
